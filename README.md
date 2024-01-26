@@ -22,10 +22,8 @@ python main.py
 
 ## About Packaging
 
-安装 pyinstaller
 ```bash
-pip install pyinstaller==5.7.0
-pyinstaller -D -w --add-data="./config/*;./config" --add-data="./models/*;./models" --add-data="./imgs/*;./imgs" --add-data="./ui/*;./ui" --add-data="./utils/*;./utils" main.py
+pyside6-deploy main.py
 ```
 
 ## 注意事项
