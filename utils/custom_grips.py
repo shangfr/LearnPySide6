@@ -1,6 +1,13 @@
-from PySide6.QtCore import *
-from PySide6.QtGui import *
-from PySide6.QtWidgets import *
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Jan 29 11:25:26 2024
+
+@author: shangfr
+"""
+
+from PySide6.QtCore import Qt,QRect,QSize
+from PySide6.QtGui import QCursor
+from PySide6.QtWidgets import QWidget, QSizeGrip, QFrame,QHBoxLayout
 
 # After the interface hides the window, use this file to achieve borderless stretching of the window
 class CustomGrip(QWidget):

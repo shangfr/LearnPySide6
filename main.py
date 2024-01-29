@@ -19,14 +19,12 @@ from PySide6.QtCore import QPropertyAnimation, QEasingCurve, QEvent
 from PySide6.QtWidgets import QGraphicsDropShadowEffect
 from PySide6.QtWidgets import QApplication, QMainWindow, QFileDialog, QMenu
 
-
-from ui.custom_grips import CustomGrip
-from ui.CustomMessageBox import MessageBox
-from ui.home import Ui_MainWindow
-
 from utils.capnums import Camera
 from utils.rtsp_win import Window
+from utils.custom_grips import CustomGrip
+from utils.CustomMessageBox import MessageBox
 
+from ui.home import Ui_MainWindow
 
 from detect import YoloPredictor,letterbox
 

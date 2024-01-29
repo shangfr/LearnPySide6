@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1220</width>
-    <height>725</height>
+    <width>1080</width>
+    <height>720</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -36,7 +36,7 @@
        <string notr="true">QFrame#Main_QF{
 	background-color: qlineargradient(x0:0, y0:1, x1:1, y1:1,stop:0.4  rgb(107, 128, 210), stop:1 rgb(180, 140, 255));
 border:0px solid red;
-border-radius:30px
+border-radius:5px
 }</string>
       </property>
       <layout class="QHBoxLayout" name="main_qframe">
@@ -146,7 +146,7 @@ border-radius:30px
               </size>
              </property>
              <property name="styleSheet">
-              <string notr="true">image: url(:/all/img/logo.png);
+              <string notr="true">image: url(:/all/imgs/logo.png);
 border:2px solid rgb(255, 255, 255);
 border-radius:10px</string>
              </property>
@@ -301,7 +301,7 @@ color: rgba(255, 255, 255, 255);</string>
                </property>
                <property name="styleSheet">
                 <string notr="true">QPushButton{
-background-image: url(:/all/img/menu.png);
+background-image: url(:/all/imgs/menu.png);
 background-repeat: no-repeat;
 background-position: left center;
 border: none;
@@ -390,7 +390,7 @@ background-color: rgba(114, 129, 214, 59);
                </property>
                <property name="styleSheet">
                 <string notr="true">QPushButton{
-background-image: url(:/all/img/file.png);
+background-image: url(:/all/imgs/file.png);
 background-repeat: no-repeat;
 background-position: left center;
 border: none;
@@ -424,7 +424,7 @@ background-color: rgba(114, 129, 214, 59);
                </property>
                <property name="styleSheet">
                 <string notr="true">QPushButton{
-background-image: url(:/all/img/cam.png);
+background-image: url(:/all/imgs/cam.png);
 background-repeat: no-repeat;
 background-position: left center;
 border: none;
@@ -461,7 +461,7 @@ background-color: rgba(114, 129, 214, 59);
                </property>
                <property name="styleSheet">
                 <string notr="true">QPushButton{
-background-image: url(:/all/img/RTSP.png);
+background-image: url(:/all/imgs/RTSP.png);
 background-repeat: no-repeat;
 background-position: left center;
 border: none;
@@ -688,7 +688,7 @@ background-color: rgba(255, 255, 255,0);
                   </property>
                   <property name="styleSheet">
                    <string notr="true">QPushButton{
-background-image: url(:/all/img/set.png);
+background-image: url(:/all/imgs/set.png);
 background-repeat: no-repeat;
 background-position: center;
 border: none;
@@ -1846,8 +1846,8 @@ QPushButton:hover{
                     </property>
                     <property name="icon">
                      <iconset>
-                      <normaloff>:/all/img/begin.png</normaloff>
-                      <normalon>:/all/img/pause.png</normalon>:/all/img/begin.png</iconset>
+                      <normaloff>:/all/imgs/begin.png</normaloff>
+                      <normalon>:/all/imgs/pause.png</normalon>:/all/imgs/begin.png</iconset>
                     </property>
                     <property name="iconSize">
                      <size>
@@ -1920,7 +1920,7 @@ border-radius: 7px;
                     </property>
                     <property name="styleSheet">
                      <string notr="true">QPushButton{
-background-image: url(:/all/img/stop.png);
+background-image: url(:/all/imgs/stop.png);
 background-repeat: no-repeat;
 background-position: center;
 border: none;
@@ -2076,7 +2076,7 @@ border-radius:15px;
                      </property>
                      <property name="styleSheet">
                       <string notr="true">QPushButton{
-background-image: url(:/all/img/model.png);
+background-image: url(:/all/imgs/model.png);
 background-repeat: no-repeat;
 background-position: left center;
 border: none;
@@ -2150,11 +2150,11 @@ QComboBox {
         QComboBox::down-arrow {
             width: 16px;
             height: 16px;
-            image: url(:/all/img/box_down.png);
+            image: url(:/all/imgs/box_down.png);
         }
 
         QComboBox::down-arrow:on {
-            image: url(:/all/img/box_up.png);
+            image: url(:/all/imgs/box_up.png);
         }
 
         QComboBox QAbstractItemView {
@@ -2257,7 +2257,7 @@ border-radius:15px;
                      </property>
                      <property name="styleSheet">
                       <string notr="true">QPushButton{
-background-image: url(:/all/img/IOU.png);
+background-image: url(:/all/imgs/IOU.png);
 background-repeat: no-repeat;
 background-position: left center;
 border: none;
@@ -2341,7 +2341,7 @@ QDoubleSpinBox::up-button {
 width: 10px;
 height: 9px;
 margin: 0px 3px 0px 0px;
-border-image: url(:/all/img/box_up.png);
+border-image: url(:/all/imgs/box_up.png);
 }
 QDoubleSpinBox::up-button:pressed {
 margin-top: 1px;
@@ -2351,7 +2351,7 @@ QDoubleSpinBox::down-button {
 width: 10px;
 height: 9px;
 margin: 0px 3px 0px 0px;
-border-image: url(:/all/img/box_down.png);
+border-image: url(:/all/imgs/box_down.png);
 }
 QDoubleSpinBox::down-button:pressed {
 margin-bottom: 1px;
@@ -2485,7 +2485,7 @@ border-radius:15px;
                      </property>
                      <property name="styleSheet">
                       <string notr="true">QPushButton{
-background-image: url(:/all/img/conf.png);
+background-image: url(:/all/imgs/conf.png);
 background-repeat: no-repeat;
 background-position: left center;
 border: none;
@@ -2569,7 +2569,7 @@ QDoubleSpinBox::up-button {
 width: 10px;
 height: 9px;
 margin: 0px 3px 0px 0px;
-border-image: url(:/all/img/box_up.png);
+border-image: url(:/all/imgs/box_up.png);
 }
 QDoubleSpinBox::up-button:pressed {
 margin-top: 1px;
@@ -2579,7 +2579,7 @@ QDoubleSpinBox::down-button {
 width: 10px;
 height: 9px;
 margin: 0px 3px 0px 0px;
-border-image: url(:/all/img/box_down.png);
+border-image: url(:/all/imgs/box_down.png);
 }
 QDoubleSpinBox::down-button:pressed {
 margin-bottom: 1px;
@@ -2713,7 +2713,7 @@ border-radius:15px;
                      </property>
                      <property name="styleSheet">
                       <string notr="true">QPushButton{
-background-image: url(:/all/img/delay.png);
+background-image: url(:/all/imgs/delay.png);
 background-repeat: no-repeat;
 background-position: left center;
 border: none;
@@ -2794,7 +2794,7 @@ QSpinBox::up-button {
 width: 10px;
 height: 9px;
 margin: 0px 3px 0px 0px;
-border-image: url(:/all/img/box_up.png);
+border-image: url(:/all/imgs/box_up.png);
 }
 QSpinBox::up-button:pressed {
 margin-top: 1px;
@@ -2804,7 +2804,7 @@ QSpinBox::down-button {
 width: 10px;
 height: 9px;
 margin: 0px 3px 0px 0px;
-border-image: url(:/all/img/box_down.png);
+border-image: url(:/all/imgs/box_down.png);
 }
 QSpinBox::down-button:pressed {
 margin-bottom: 1px;
@@ -2941,7 +2941,7 @@ border-radius:15px;
                      </property>
                      <property name="styleSheet">
                       <string notr="true">QPushButton{
-background-image: url(:/all/img/save.png);
+background-image: url(:/all/imgs/save.png);
 background-repeat: no-repeat;
 background-position: left center;
 border: none;
@@ -2992,11 +2992,11 @@ padding-left: 10px;
         }
 
         QCheckBox::indicator:unchecked {
-            image: url(:/all/img/check_no.png);
+            image: url(:/all/imgs/check_no.png);
         }
 
         QCheckBox::indicator:checked {
-            image: url(:/all/img/check_yes.png);
+            image: url(:/all/imgs/check_yes.png);
         }</string>
                      </property>
                      <property name="text">
@@ -3024,11 +3024,11 @@ padding-left: 10px;
         }
 
         QCheckBox::indicator:unchecked {
-            image: url(:/all/img/check_no.png);
+            image: url(:/all/imgs/check_no.png);
         }
 
         QCheckBox::indicator:checked {
-            image: url(:/all/img/check_yes.png);
+            image: url(:/all/imgs/check_yes.png);
         }</string>
                      </property>
                      <property name="text">
